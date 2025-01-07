@@ -12,7 +12,6 @@ https://github.com/Dzmitryuser/posmotri-v-okno-fd
 - CSS3
 - Flexbox
 - Grid Layout
-- Адаптивная верстка
 
 ## Функционал
 

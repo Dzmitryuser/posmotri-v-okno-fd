@@ -243,10 +243,6 @@ ol {
   font-weight: 700;
 }
 
-.button:hover {
-  cursor: pointer;
-}
-
 .search-form__submit-button {
   width: 194px;
   height: 34px;
@@ -261,28 +257,26 @@ ol {
 
 /* Стилизуем псевдочекбокс */
 .search-form__pseudo-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: 1px solid #fff;
   width: 19px;
   height: 19px;
   margin-right: 3.5px;
   margin-top: auto;
   margin-bottom: auto;
-  position: relative;
-  display: inline-block;
 }
 
 .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
   background-color: white;
   width: 17px;
   height: 17px;
   display: none;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
+/* Показ скрытого элемента при активном чекбоксе */
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   display: block;
 }
@@ -290,6 +284,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 /* Стилизуем состояния элементов */
 .button:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .button:active {
