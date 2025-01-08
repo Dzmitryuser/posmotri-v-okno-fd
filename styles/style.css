@@ -130,8 +130,8 @@ ol {
 }
 
 .search-form__label-text:hover {
-  text-decoration: underline;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -151,10 +151,6 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   padding-left: 0px;
-}
-
-.search-form__textfield:hover {
-  cursor: pointer;
 }
 
 .search-form__checkbox-list {
@@ -278,6 +274,11 @@ ol {
 
 .search-form__pseudo-checkbox:hover {
   cursor: pointer;
+  text-decoration: underline;
+}
+
+.search-form__checkbox-list .search-form__label:hover {
+  text-decoration: underline;
 }
 
 .search-form__pseudo-checkbox::after {
