@@ -408,7 +408,7 @@ button:focus {
     inline-size: 80%;
     margin: auto;
     margin-block-start: 30px;
-    margin-block-end: 15px;
+    margin-block-end: 50px;
   }
 
   .begining-title {
@@ -419,5 +419,9 @@ button:focus {
 @media (width <= 500px) {
   .content__video-card-thumbnail {
     inline-size: 50%;
+  }
+
+  .begining-title {
+    font-size: 55px;
   }
 }
