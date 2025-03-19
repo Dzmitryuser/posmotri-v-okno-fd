@@ -413,6 +413,7 @@ button:focus {
 
   .begining-title {
     justify-content: center;
+    text-align: center;
   }
 }
 
